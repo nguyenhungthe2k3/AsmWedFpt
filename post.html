@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Viết</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/post.css">
+</head>
+
+<body>
+    <!-- container -->
+    <div class="container">
+        <!-- menu top -->
+        <div class="row">
+            <div class="col-md-7 dtl-header">
+                <p class="text">
+                    <marquee>phụ kiện shop online - hàng đầu việt nam </marquee>
+                </p>
+            </div>
+            <div class="col-md-5 dtl-header">
+                <p class="text-1">Hỏi Đáp</p>
+                <p class="text-1">Hướng Dẫn</p>
+                <p class="text-1">Đăng ký</p>
+                <p class="text-1">Đăng nhập</p>
+            </div>
+        </div>
+        <!-- end menu top -->
+        <!-- menu bottom -->
+        <div class="row">
+            <div class="col-md-3 header__logo">
+                <a href="#" class="header__logo-link">
+                    <img src="images/logo.webp" alt="Logo" class="header__logo-img">
+                </a>
+            </div>
+            <div class="col-md-6 header__search">
+                <select name="" id="" class="header__search-select">
+                    <option value="0">All</option>
+                    <option value="1">tai nghe có dây</option>
+                    <option value="2">tai nghe không dây</option>
+                    <option value="3">tai nghe gameming</option>
+                    <option value="4">tai nghe trùm đầu</option>
+                    <option value="5">tai nghe trùm đầu gameming</option>
+                </select>
+                <input type="text" class="header__search-input" placeholder="Tìm kiếm tại đây...">
+                <button class="header__search-btn">
+                    <div class="header__search-icon-wrap">
+                        <i class="fas fa-search header__search-icon"></i>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-2 header__call">
+                <div class="header__call-icon-wrap">
+                    <i class="fas fa-phone-alt header__call-icon"></i>
+                </div>
+                <div class="header__call-info">
+                    <div class="header__call-text">
+                        Gọi điện tư vấn
+                    </div>
+                    <div class="header__call-number">
+                        0352.860.701
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 header__cart">
+                <a href="cart.html">
+                    <span class="header__notice">4</span>
+                    <i class="fas fa-shopping-cart header__nav-cart-icon"></i>
+                </a>
+            </div>
+        </div>
+        <!-- end menu bottom -->
+        <div class="row">
+            <div class="col-md-3 header__nav-menu-wrap">
+                <i class="fas fa-bars header__nav-menu-icon"></i>
+                <div class="header__nav-menu-title">Danh mục sản phẩm</div>
+            </div>
+            <div class="col-md-9 header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="index.html" class="header__nav-link">Trang chủ</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Giới thiệu</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Sản phẩm</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="post.html" class="header__nav-link">Bài viết</a>
+                    </li>
+
+                    <li class="header__nav-item">
+                        <a href="contact.html" class="header__nav-link">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- breadcrumbs -->
+        <div class="row">
+            <div class="col-md-12 breadcrumbs">
+                <span>Trang chủ &raquo</span>
+                <span class="breadcrumbs__active">Bài viết</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="posts__item">
+                    <img class="posts__item-img" src="images/tai nghe 1.webp">
+                    <h4 class="posts__item-title">
+                        TAI NGHE KHÔNG DÂY MANG LẠI CHO BẠN NHỮNG GÌ .
+                    </h4>
+                    <i class="fa fa-folder posts__item-cate-icon"></i>
+                    <div class="posts__item-cate-name">
+                        Tin tức
+                    </div>
+                    <i class="fa fa-user posts__item-cate-ad-icon"></i>
+                    <div class="posts__item-cate-ad-name">
+                        Hung The
+                    </div>
+                    <div class="posts__item-description">
+                        Tai nghe không dây đang là một xu hướng tất yếu trong thời đại phát triển công nghệ như hiện
+                        nay. Và tai nghe bluetooth có chức năng gì? Đây chắc hẳn là những câu hỏi mà nhiều người thắc
+                        mắc trong sự phát triển mạnh mẽ của công nghệ bluetooth như hiện nay.
+                    </div>
+                </div>
+                <div class="posts__item">
+                    <img class="posts__item-img" src="images/bảo vệ.jpg">
+                    <h4 class="posts__item-title">
+                        NHỮNG LƯU Ý KHI ĐEO TAI NGHE
+                    </h4>
+                    <i class="fa fa-folder posts__item-cate-icon"></i>
+                    <div class="posts__item-cate-name">
+                        Tin tức
+                    </div>
+                    <i class="fa fa-user posts__item-cate-ad-icon"></i>
+                    <div class="posts__item-cate-ad-name">
+                        Hung The
+                    </div>
+                    <div class="posts__item-description">
+                        Tai nghe hiện nay là thiết bị không thể thiếu trong đời sống hiện đại. Bài viết dưới đây sẽ đưa
+                        ra cách sử dụng tai nghe đúng cách để bảo vệ đôi tai và sức khỏe của bạn. Đặc biệt với dân văn
+                        phòng và những người thường xuyên sử dụng thiết bị này. </div>
+                </div>
+            </div>
+            <div class="posts__item">
+                <img class="posts__item-img" src="images/khacphuc.jpg">
+                <h4 class="posts__item-title">
+                    CCÁCH KHẮC PHỤC TAI NGHE BỊ DÈ
+                </h4>
+                <i class="fa fa-folder posts__item-cate-icon"></i>
+                <div class="posts__item-cate-name">
+                    Tin tức
+                </div>
+                <i class="fa fa-user posts__item-cate-ad-icon"></i>
+                <div class="posts__item-cate-ad-name">
+                    Hung The
+                </div>
+                <div class="posts__item-description">
+                    Đối với thời buổi công nghệ,, tai nghe là vật dụng không thể thiếu với mỗi người bởi tính ứng dụng
+                    và riêng tư của nó. Thế nhưng , một ngày tai nghe của bạn đột ngột không nghe rõ lời hoặc bị rè. Hãy
+                    tham khảo ngay bài viết dưới đây để nắm rõ nguyên nhân và cách khắc phục vấn đề này nhé! </div>
+            </div>
+        </div>
+        <div class="posts__item">
+            <img class="posts__item-img" src="images/tai nghe 5.0.webp">
+            <h4 class="posts__item-title">
+                CÔNG NGHỆ 5.0 .
+            </h4>
+            <i class="fa fa-folder posts__item-cate-icon"></i>
+            <div class="posts__item-cate-name">
+                Tin tức
+            </div>
+            <i class="fa fa-user posts__item-cate-ad-icon"></i>
+            <div class="posts__item-cate-ad-name">
+                Hung The
+            </div>
+            <div class="posts__item-description">
+                Kết nối Bluetooth 5.0 mạnh hơn tới 2 lần so với phiên bản 4.2 trước đó và phạm vi hoạt động dài hơn tới
+                4 lần. Tốc độ tối đa của Bluetooth 5.0 lên đến 50 Mbps, với phạm vi lên đến 300m mà không có vật cản.
+                Tuy nhiên, khi có vật cản Bluetooth sẽ bị yếu đi tương tự như Wif
+            </div>
+        </div>
+        <div class="posts__item">
+            <img class="posts__item-img" src="images/taisao.jpg">
+            <h4 class="posts__item-title">
+                TẠI SAO KHÔNG KẾT NỐI ĐƯỢC VỚI ĐIỆN THOẠI
+            </h4>
+            <i class="fa fa-folder posts__item-cate-icon"></i>
+            <div class="posts__item-cate-name">
+                Tin tức
+            </div>
+            <i class="fa fa-user posts__item-cate-ad-icon"></i>
+            <div class="posts__item-cate-ad-name">
+                Hung The
+            </div>
+            <div class="posts__item-description">
+                Quên kích hoạt Bluetooth trên thiết bị,Không thể khởi động tai nghe bluetooth để kết nối..
+            </div>
+        </div>
+        <!-- <div class="posts__item">
+            <img class="posts__item-img" src="images/product_3.png">
+            <h4 class="posts__item-title">
+                Giới thiệu 5 loại mũ bảo hiểm an toàn và phổ biến nhất
+            </h4>
+            <i class="fa fa-folder posts__item-cate-icon"></i>
+            <div class="posts__item-cate-name">
+                Tin tức
+            </div>
+            <i class="fa fa-user posts__item-cate-ad-icon"></i>
+            <div class="posts__item-cate-ad-name">
+                Thành Long
+            </div>
+            <div class="posts__item-description">
+                Có 5 loại mũ bảo hiểm cơ bản dùng cho những người lái moto 2 bánh, còn các loại khác chỉ mang tính chất
+                chuyên dụng. Tất cả các loại này đều được trang bị dây buộc cằm. Chỉ khi nào người lái xe máy thắt chặt
+                dây buộc cằm sao cho thật vừa vặn với đầu thì tác dụng của những chiếc mũ bảo hiểm mới được phát huy tối
+                đa...
+            </div>
+        </div> -->
+    </div>
+    <!-- <div class="col-md-3">
+        <h5 class="post__aside-heading">
+            Bài viết liên quan
+        </h5>
+        <div class="post__aside">
+            <img class="post__aside-img" src="images/product_1.png">
+            <h6 class="post__aside-link-heading">Kinh nghiệm mua mũ bảo hiểm cho người đi phượt</h6>
+        </div>
+        <div class="post__aside">
+            <img class="post__aside-img" src="images/post_1.jpg">
+            <h6 class="post__aside-link-heading">Kinh nghiệm đi phượt bằng xe máy</h6>
+        </div>
+        <div class="post__aside">
+            <img class="post__aside-img" src="images/post_2.jpg">
+            <h6 class="post__aside-link-heading">Giới thiệu các địa điểm phải đến khi đi phượt Hà Giang</h6>
+        </div>
+        <h5 class="post__aside-heading">
+            Có thể bạn thích
+        </h5>
+        <div class="post__aside-list">
+            <img class="post__aside-img" src="images/product_1.png">
+            <h6 class="post__aside-link-heading">Mũ bảo hiểm fullface Yoyal QC201</h6>
+            <div class="icon-star">
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+            </div>
+            <span class="post__aside-price-current">
+                990.000đ
+            </span>
+        </div>
+        <div class="post__aside-list">
+            <img class="post__aside-img" src="images/product_10.png">
+            <h6 class="post__aside-link-heading">Mũ bảo hiểm fullface Yoyal 2020</h6>
+            <div class="icon-star">
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+            </div>
+            <span class="post__aside-price-current">
+                1.490.000đ
+            </span>
+        </div>
+        <div class="post__aside-list">
+            <img class="post__aside-img" src="images/product_3.png">
+            <h6 class="post__aside-link-heading">Mũ bảo hiểm LS2 đẹp chính hãng</h6>
+            <div class="icon-star">
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+            </div>
+            <span class="post__aside-price-current">
+                1.200.000đ
+            </span>
+        </div>
+        <div class="post__aside-list">
+            <img class="post__aside-img" src="images/product_7.png">
+            <h6 class="post__aside-link-heading">Mũ bảo hiểm mới nhất 2020</h6>
+            <div class="icon-star">
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+            </div>
+            <span class="post__aside-price-current">
+                1.200.000đ
+            </span>
+        </div>
+        <div class="post__aside-list">
+            <img class="post__aside-img" src="images/product_4.png">
+            <h6 class="post__aside-link-heading">Mũ bảo hiểm LS2 chất lượng, bền</h6>
+            <div class="icon-star">
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+            </div>
+            <span class="post__aside-price-current">
+                2.220.000đ
+            </span>
+        </div>
+        <div class="post__aside-list">
+            <img class="post__aside-img" src="images/product_6.png">
+            <h6 class="post__aside-link-heading">Áo Khoác Nam dành cho người đi phượt</h6>
+            <div class="icon-star">
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+            </div>
+            <span class="post__aside-price-current">
+                1.120.000đ
+            </span>
+        </div>
+        <div class="post__aside-list">
+            <img class="post__aside-img" src="images/product_5.png">
+            <h6 class="post__aside-link-heading">Găng tay leo núi cho mới nhất 2020</h6>
+            <div class="icon-star">
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+            </div>
+            <span class="post__aside-price-current">
+                200.000đ
+            </span>
+        </div>
+        <div class="post__aside-list">
+            <img class="post__aside-img" src="images/product_12.png">
+            <h6 class="post__aside-link-heading">Quần phượt cho Nam</h6>
+            <div class="icon-star">
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+                <i class="fas fa-star post__aside-rate"></i>
+            </div>
+            <span class="post__aside-price-current">
+                500.000đ
+            </span>
+        </div>
+    </div>
+    </div> -->
+    <div class="row">
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-3">
+            <div class="pagination">
+                <ul class="page-numbers">
+                    <li><a href="" class="page-number">1</a></li>
+                    <li><a href="" class="page-number current">2</a></li>
+                    <li><a href="" class="page-number">3</a></li>
+                    <li><a href="" class="page-number">4</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4">
+        </div>
+    </div>
+    <!-- end -->
+    <!-- footer -->
+    <div class="row backroud">
+        <div class="col-md-5">
+            <h4 class="footer-heading">
+                Về chúng tôi
+            </h4>
+            <div class="footer__top-intro-content">
+                Là hệ thống chuyên cung cấp tai nghe
+                .Chúng tôi sẽ liên tục cập
+                nhật những sản phẩm mới nhất, chất lượng nhất,
+                hợp thời nhất giúp các bạn có những trải nghiệm
+                tuyệt vời! <br> <br>
+                Điện thoại: 0889946198 <br>
+                Email: thenhph22409@fpt.edu.vn<br>
+                Zalo: 089946198.Mr the <br>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <h4 class="footer__top-policy-heading">
+                Chính sách mua hàng
+            </h4>
+
+            <ul class="footer__top-policy-list">
+                <li class="footer__top-policy-item">
+                    <a href="#" class="footer__top-policy-link">Hình thức đặt hàng</a>
+                </li>
+                <li class="footer__top-policy-item">
+                    <a href="#" class="footer__top-policy-link">Hình thức thanh toán</a>
+                </li>
+                <li class="footer__top-policy-item">
+                    <a href="#" class="footer__top-policy-link">Phương thức vận chuyển</a>
+                </li>
+                <li class="footer__top-policy-item">
+                    <a href="#" class="footer__top-policy-link">Chính sách đổi trả</a>
+                </li>
+                <li class="footer__top-policy-item">
+                    <a href="#" class="footer__top-policy-link">Hướng dẫ sử dụng</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h4 class="footer-heading">
+                Hotline liên hệ
+            </h4>
+            <div class="footer__top-contact">
+                <div class="footer__top-contact-icon">
+                    <img src="images/phone_top.png" class="footer__top-contact-img">
+                </div>
+
+                <div class="footer__top-contact-phone-wrap">
+                    <div class="footer__top-contact-phone">
+                        0889946198
+                    </div>
+                    <div class="footer__top-contact-des">
+                        (Tư vấn miễn phí 24/24)
+                    </div>
+                </div>
+            </div>
+            <h4 class="footer__top-contact-heading">
+                Kết nối với chúng tôi
+            </h4>
+            <img class="footer__top-contact-social-link" src="images/facebook.png">
+            <img class="footer__top-contact-social-link" src="images/youtube.png">
+            <img class="footer__top-contact-social-link" src="images/tiktok.png">
+            <img class="footer__top-contact-social-link" src="images/zalo.png">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 footer__bottom">
+            <span class="footer__bottom-content">@Bản quyền thuộc về thenhph22409@fpt.edu.vn | design by hung the</span>
+        </div>
+    </div>
+    <!-- end footer -->
+    </div>
+    <!-- end container -->
+</body>
+
+</html>
